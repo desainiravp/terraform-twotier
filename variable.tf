@@ -68,3 +68,10 @@ variable "tg-name" {
 variable "db-sg-name" {
   description = "Name for the database security group"
 }
+variable "ami-id" {
+  description = "AMI ID for the EC2 instance"
+}
+
+variable "instance-type" {
+  description = "Instance type for the EC2 instance"
+}
